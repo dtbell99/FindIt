@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="findit.css" type="text/css" />
+		<script type="text/javascript" src="findit.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<h1>Findit!</h1>
+			<i>This game was created to help kids learn to code. You have 60 seconds to find the most letters and numbers. If you choose
+				the correct box you receive 1 point. If you choose the wrong box you lose 1 point.</i>
+			<br />
+			<br />
+			<input type="button" onclick="startStop();" value="Start a new game" id="startButton" class="startButton" />
+			<div id="saveBox" style="font-size: 20pt; vertical-align: middle; display: none;">
+				<br />
+				<br />
+				<b>Enter your initials</b>
+				<input style="font-size: 20pt;" type="text" name="initials" id="initialsId" size="3" maxlength="3"
+				/>
+				<input class="saveButton" type="button" onclick="saveGame();" value="Post Your Score" />
+			</div>
+			<div class="cntr" id="mycounter">Time:
+				<b>0</b>
+			</div>
+			<br />
+			<label class="lbl" id="questionLabelId"></label>
+			<br />
+			<label class="points" id="pointsLabelId">Points:
+				<b>0</b>
+			</label>
+			<div id="tabledata"></div>
+			<br />
+			<br />
+			<div id="scores"></div>
+		</div>
+		<script type="text/javascript">
+			loadTable();
+		</script>
+		<audio loop id="music">
+			<source src="clock4.mp3" type="audio/mpeg">Your browser does not support the audio tag.
+		</audio>
+	</body>
+
+</html>

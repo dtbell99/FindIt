@@ -1,0 +1,116 @@
+h1 {
+	font-family: Comic Sans MS;
+	font-size: 32pt;
+	color:#c42020;
+}
+
+table {
+	table-layout: fixed;
+	border:.1em solid #bbbbbb;
+	border-radius:10px;
+}
+
+td {
+	text-align:center;
+}
+
+th {
+	border-bottom:.1em solid #bbbbbb;
+}
+
+body {
+	font-family: Comic Sans MS;
+	font-size: 12pt;
+	background-color:#7d8c85;
+}
+
+h1 {
+	font-family: Comic Sans MS;
+	font-size: 26pt;
+}
+
+.content {
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:35px;
+	padding:25px;
+	background-color:white;
+	border-radius:10px;
+}
+
+.td {
+	font-size: 40pt;
+	font-family: Comic Sans MS;
+	border: .05em solid black;
+	padding: 20pt;
+	width: 30pt;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.gameButton {
+	font-size: 40pt;
+	font-family: arial;
+	border: .1em solid black;
+	color: #aaaaaa;
+	background-color: white;
+	padding: 20pt;
+	text-align: center;
+	width: 100pt;;
+	vertical-align: middle;
+	border-radius: .2em;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.gameButton:active {
+	background-color: #f1f1f1;
+}
+
+.startButton {
+	font-size: 20pt;
+	height: 70px;
+	width: 250px;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.startButton:active {
+	background-color: #bbbbbb;
+}
+
+.saveButton {
+	font-size: 14pt;
+	background-color: #eeeeee;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.saveButton:active {
+	background-color: #bbbbbb;
+}
+
+.cntr {
+	font-family: arial;
+	font-size: 32pt;
+	position: absolute;
+	top: 215px;
+	left: 550px;
+}
+
+.lbl {
+	font-family: arial;
+	font-size: 32pt;
+}
+
+.points {
+	font-family: arial;
+	font-size: 32pt;
+	position: absolute;
+	top: 215px;
+	left: 355px;
+}
